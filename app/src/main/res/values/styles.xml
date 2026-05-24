@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom Bottom Navigation Style -->
+    <style name="HabitXBottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/primary_green</item>
+        <item name="itemTextColor">@color/primary_green</item>
+        <item name="itemRippleColor">@color/nav_ripple_color</item>
+        <item name="android:background">@color/surface_light</item>
+    </style>
+</resources>
+
+

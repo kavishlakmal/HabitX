@@ -1,0 +1,188 @@
+<resources>
+    <!-- App Information -->
+    <string name="app_name">HabitX</string>
+    <string name="widget_description">HabitX Progress Widget</string>
+    <string name="app_version">Version 1.0.0</string>
+    <string name="app_tagline">Your Wellness Companion</string>
+    <string name="app_description">Your personal wellness companion for tracking habits,
+                                    moods, and staying hydrated.</string>
+    
+    <!-- Splash Screen -->
+    <string name="splash_title">HabitX</string>
+    <string name="splash_subtitle">Your Wellness Companion</string>
+    
+    <!-- Habits Screen -->
+    <string name="habits_title">Daily Habits</string>
+    <string name="habits_subtitle">Track your wellness journey</string>
+    <string name="habits_progress_percentage">0%</string>
+    <string name="habits_progress_text">0/0 completed</string>
+    <string name="habits_encouragement">Keep up the great work! 🌟</string>
+    <string name="habits_section_title">Your Habits</string>
+    <string name="habits_empty_title">No habits yet</string>
+    <string name="habits_empty_message">Start your wellness journey
+                                        by adding your first habit! 🌱</string>
+    <string name="habits_add_button">Add Habit</string>
+    
+    <!-- Habit Item -->
+    <string name="habit_name_placeholder">Habit Name</string>
+    <string name="habit_description_placeholder">Description</string>
+    <string name="habit_progress_placeholder">0/1</string>
+    <string name="habit_add_step">+ Step</string>
+    <string name="habit_remove_step">- Step</string>
+    <string name="habit_complete">✓</string>
+    <string name="habit_delete">×</string>
+    
+    <!-- Add Habit Dialog -->
+    <string name="add_habit_title">Add New Habit</string>
+    <string name="add_habit_subtitle">Build a better version of yourself</string>
+    <string name="add_habit_name_hint">Enter habit name</string>
+    <string name="add_habit_description_hint">Enter description (optional)</string>
+    <string name="add_habit_category_hint">Select category</string>
+    <string name="add_habit_target_hint">1</string>
+    <string name="add_habit_cancel">Cancel</string>
+    <string name="add_habit_save">Save Habit</string>
+    
+    <!-- Habit Categories -->
+    <string name="category_health_fitness">Health &amp; Fitness</string>
+    <string name="category_productivity">Productivity</string>
+    <string name="category_learning">Learning</string>
+    <string name="category_mindfulness">Mindfulness</string>
+    <string name="category_creative">Creative</string>
+    <string name="category_work">Work</string>
+    <string name="category_other">Other</string>
+    <string name="category_test">Test</string>
+    
+    <!-- Mood Screen -->
+    <string name="mood_title">Mood Journal</string>
+    <string name="mood_subtitle">Track your daily emotions</string>
+    <string name="mood_trend_title">Mood Trend</string>
+    <string name="mood_trend_subtitle">📈 Last 7 Days</string>
+    <string name="mood_section_title">Your Entries</string>
+    <string name="mood_empty_title">No mood entries yet</string>
+    <string name="mood_empty_message">Start tracking your emotions and feelings! 💭</string>
+    <string name="mood_add_button">Add Entry</string>
+    
+    <!-- Mood Item -->
+    <string name="mood_emoji_placeholder">😊</string>
+    <string name="mood_time_placeholder">Today, 2:30 PM</string>
+    <string name="mood_note_placeholder">Feeling great today!</string>
+    
+    <!-- Add Mood Dialog -->
+    <string name="add_mood_title">How are you feeling?</string>
+    <string name="add_mood_subtitle">Select your mood today</string>
+    <string name="add_mood_note_hint">Add a note (optional)</string>
+    <string name="add_mood_cancel">Cancel</string>
+    <string name="add_mood_save">Save Mood</string>
+    
+    <!-- Mood Emojis -->
+    <string name="mood_very_sad">😢</string>
+    <string name="mood_sad">😔</string>
+    <string name="mood_neutral">😐</string>
+    <string name="mood_happy">😊</string>
+    <string name="mood_very_happy">🤩</string>
+    
+    <!-- Hydration Screen -->
+    <string name="hydration_title">Hydration Tracker</string>
+    <string name="hydration_subtitle">Stay hydrated and track your water intake</string>
+    <string name="hydration_water_intake_title">Water Intake Today</string>
+    <string name="hydration_progress_percentage">0%</string>
+    <string name="hydration_progress_text">0/8 glasses</string>
+    <string name="hydration_add_glass">Add Glass 💧</string>
+    <string name="hydration_reminder_settings">Reminder Settings</string>
+    <string name="hydration_target_glasses_hint">8</string>
+    <string name="hydration_interval_hint">60</string>
+    <string name="hydration_save">Save</string>
+    <string name="hydration_enable_reminders">Enable Reminders</string>
+    <string name="hydration_disable_reminders">Disable Reminders</string>
+    <string name="hydration_wellness_tips">Wellness Tips</string>
+    <string name="hydration_tips_content">• Aim for 8 glasses of water per day\n
+                                            • Drink water before meals\n
+                                            • Keep a water bottle nearby\n
+                                            • Track your mood patterns\n
+                                            • Set regular reminders</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Customize your experience</string>
+    <string name="settings_statistics_title">Your Statistics</string>
+    <string name="settings_statistics_icon">📊</string>
+    <string name="settings_total_habits">Total Habits</string>
+    <string name="settings_mood_entries">Mood Entries</string>
+    <string name="settings_notifications_title">Notifications</string>
+    <string name="settings_notifications_icon">🔔</string>
+    <string name="settings_enable_notifications">Enable Notifications</string>
+    <string name="settings_notifications_description">Get reminders for habits
+                                                    and hydration</string>
+    <string name="settings_test_notification">🔔 Test Notification</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_vibration_description">Vibrate for notifications</string>
+    <string name="settings_actions_title">Actions</string>
+    <string name="settings_actions_icon">⚙️</string>
+    <string name="settings_share_app">Share HabitX</string>
+    <string name="settings_reset_data">Reset All Data</string>
+    
+    <!-- Validation Messages -->
+    <string name="error_target_required">Target is required</string>
+    <string name="error_target_positive">Target must be a positive number</string>
+    <string name="error_interval_required">Interval is required</string>
+    <string name="error_interval_positive">Interval must be a positive number</string>
+    <string name="error_habit_name_required">Habit name is required</string>
+    <string name="error_target_count_required">Target count is required</string>
+    <string name="error_target_count_positive">Target count must be a positive number</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_settings_saved">Settings saved!</string>
+    <string name="toast_reminders_enabled">Hydration reminders enabled</string>
+    <string name="toast_reminders_disabled">Hydration reminders disabled</string>
+    <string name="toast_goal_reached">Great job! You\'ve reached your daily goal! 🎉</string>
+    <string name="toast_keep_it_up">Keep it up! 💧</string>
+    <string name="toast_data_reset">All data has been reset</string>
+    <string name="toast_notification_sent">🔔 Test notification sent!</string>
+    <string name="toast_notification_failed">Failed to send notification: %1$s</string>
+    <string name="toast_notifications_enabled">Notifications enabled</string>
+    <string name="toast_notifications_disabled">Notifications disabled</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Hydration Reminders</string>
+    <string name="notification_channel_description">Reminds you to drink water regularly</string>
+    <string name="notification_title">💧 Time to Hydrate!</string>
+    <string name="notification_text">Don\'t forget to drink a glass of water</string>
+    
+    <!-- Share Content -->
+    <string name="share_text">Check out HabitX - Your personal wellness companion! 🌱
+        \n\nTrack habits, log moods, and stay hydrated.\n
+        Download now: https://play.google.com/store/apps/details?id=com.example.habitx</string>
+    <string name="share_chooser_title">Share HabitX</string>
+    
+    <!-- Date/Time Formats -->
+    <string name="date_format_mmm_dd_yyyy">MMM dd, yyyy</string>
+    <string name="time_format_hh_mm">HH:mm</string>
+    <string name="datetime_format_mmm_dd_yyyy_hh_mm">MMM dd, yyyy HH:mm</string>
+    
+    <!-- Default Values -->
+    <string name="default_reminder_start_time">08:00</string>
+    <string name="default_reminder_end_time">22:00</string>
+    <string name="default_theme_color">#4CAF50</string>
+    <string name="default_habit_color">#4CAF50</string>
+    <string name="default_mood_emoji">😊</string>
+    
+    <!-- Storage Keys -->
+    <string name="prefs_name">HabitX_Prefs</string>
+    <string name="key_habits">habits</string>
+    <string name="key_mood_entries">mood_entries</string>
+    <string name="key_user_settings">user_settings</string>
+    <string name="key_daily_progress">daily_progress</string>
+    
+    <!-- Work Manager -->
+    <string name="work_tag_hydration">hydration_reminder_work</string>
+    <string name="channel_id_hydration">hydration_reminders</string>
+    
+    <!-- Log Messages -->
+    <string name="log_notification_sent">Notification sent successfully</string>
+    <string name="log_notification_failed">Failed to send notification: %1$s</string>
+    <string name="log_worker_failed">Worker failed: %1$s</string>
+</resources>
+
+
+
+

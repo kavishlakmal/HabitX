@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HabitX" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- HabitX Light Green Theme -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent_green</item>
+        <item name="colorSecondaryVariant">@color/primary_green_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorError">@color/error_red</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <!-- Material 3 specific colors to override purple -->
+        <item name="colorPrimaryContainer">@color/primary_green_light</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="colorSecondaryContainer">@color/white</item>
+        <item name="colorOnSecondaryContainer">@color/primary_green</item>
+        <item name="colorTertiary">@color/accent_green</item>
+        <item name="colorOnTertiary">@color/white</item>
+        <item name="colorTertiaryContainer">@color/white</item>
+        <item name="colorOnTertiaryContainer">@color/primary_green</item>
+        
+        <!-- Override switch and selection colors -->
+        <item name="colorControlActivated">@color/primary_green</item>
+        <item name="colorControlHighlight">@color/light_green</item>
+        <item name="android:colorAccent">@color/primary_green</item>
+        
+        <!-- Override navigation bar colors -->
+        <item name="colorOnSurfaceVariant">@color/primary_green</item>
+        <item name="colorOnSecondary">@color/primary_green</item>
+        <item name="colorOnTertiary">@color/primary_green</item>
+        <item name="colorOutline">@color/primary_green</item>
+        <item name="colorOutlineVariant">@color/light_green</item>
+    </style>
+
+    <style name="Theme.HabitX" parent="Base.Theme.HabitX" />
+    
+    <!-- Custom button styles -->
+    <style name="HabitXButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <style name="HabitXButtonOutlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary_green</item>
+        <item name="android:textColor">@color/primary_green</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <!-- Card style -->
+    <style name="HabitXCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <!-- Dialog styles for pure white backgrounds -->
+    <style name="HabitXDialog" parent="ThemeOverlay.Material3.Dialog">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+    </style>
+</resources>
