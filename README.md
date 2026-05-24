@@ -16,3 +16,12 @@ An Android app to help users build and maintain healthy daily routines.
 - WorkManager (background reminders)
 - MPAndroidChart (mood trend chart)
 - SharedPreferences (local data storage)
+
+## Screenshots
+
+<p float="left">
+  <img src="screenshots/habits.png" width="200"/>
+  <img src="screenshots/mood.png" width="200"/>
+  <img src="screenshots/hydration.png" width="200"/>
+  <img src="screenshots/settings.png" width="200"/>
+</p>
